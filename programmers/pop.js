@@ -31,8 +31,13 @@ return common.pop() + common[1]-common[0] (두수의 차) => 4 + 1 = 5  wow
 
 /*function solution(common) {
 =======
-function solution(common) {
->>>>>>> 205a371 (등차수열/등비수열 다음 수 구하기)
+<문제>
+등차수열 혹은 등비수열 common	이 매개변수로 주어질 때, 
+마지막 원소 다음으로 올 숫자를 return 하는 함수를 완성해라.
+*/
+
+/*function solution(common) {
+>>>>>>> dc19115e66109264a29b73df000122cef5002f4f
 	if (common[2] - common[1] === common[1] - common[0]) {
 		return common.pop() + common[1] - common[0];
 	} else {
