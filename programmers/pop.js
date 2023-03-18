@@ -23,7 +23,7 @@ commom.pop() = Removes the last element from an array and returns it.
 return common.pop() + common[1]-common[0] (두수의 차) => 4 + 1 = 5  wow 
 두 수의 차 만큼 증가하는 배열이니까요
 
-*/
+
 	if (common[2] - common[1] === common[1] - common[0]) {
 		return common.pop() + common[1] - common[0];
 	} else {
@@ -57,4 +57,3 @@ return common.pop() + common[1]-common[0] (두수의 차) => 4 + 1 = 5  wow
 두 수의 차 만큼 증가하는 배열이니까요
 
 */
->>>>>>> aafc93a693f0a5755159806e8f4e5d9fae5c61b0
