@@ -8,20 +8,27 @@ return하도록 solution 함수를 완성해주세요.
 
 const solution = (angle) => {
 	//
-	const acuteAngle = 1;
-	const rightAngle = 2;
-	const obtuseAngle = 3;
-	const straightAngle = 4;
+	const acute = 1;
+	const right = 2;
+	const obtuse = 3;
+	const straight = 4;
 
 	if (0 < angle < 90) {
-		return acuteAngle;
+		return acute;
 	} else if (angle === 90) {
-		return rightAngle;
+		return right;
 	} else if (90 < angle < 180) {
-		return obtuseAngle;
-	} else {
-		return straightAngle;
+		return obtuse;
+	} else if (angle === 180) {
+		return straight;
 	}
 };
 
-// -> input값에 상관없이 1이 나오고 있다. ㅎㅎㅎ
+console.log(solution(180));
+
+/* -> input값에 상관없이 1이 나오고 있다. ㅎㅎㅎ
+
+그.. 프로그래밍에서 1 < i < 100 이런식으로 이중 조건을 걸 수가 없어요; 
+
+
+*/
